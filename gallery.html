@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Memories ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in">
+
+  <div class="sparkle-container"></div>
+
+  <h1 class="title2">Our Moments ❤️</h1>
+
+  <!-- Sweet music start -->
+  <div class="start-music-container centered">
+    <p class="sweet-message">
+      I have a little surprise for you… Press the button to start our special song 💖
+    </p>
+    <button id="startMusicBtn" class="btn ripple">Play Our Song 🎵</button>
+  </div>
+
+  <!-- Memory cards hidden initially -->
+  <div id="memories" style="display:none;">
+
+    <!-- MEMORY CARDS -->
+    <div class="memory-card">
+      <img src="images/first pic.jpeg" alt="First Pic">
+      <p class="story">Remember our first picture together?</p>
+      <button class="reveal-btn">Read More 💌</button>
+      <p class="hidden-letter">That moment meant everything to me. It wasn't just a memory—it was the start of us, the moment my heart found a home in yours.</p>
+    </div>
+
+    <div class="memory-card">
+      <img src="images/flower.jpeg" alt="First Flower">
+      <p class="story">Remember when I gave you my first flower?</p>
+      <button class="reveal-btn">Read More 💌</button>
+      <p class="hidden-letter">I love how your happiness lights up not just your world, but mine too. Seeing you smile makes everything feel brighter, and I treasure every moment of it.</p>
+    </div>
+
+    <div class="memory-card">
+      <img src="images/kiss.jpeg" alt="First Kiss">
+      <p class="story">Our first kiss…</p>
+      <button class="reveal-btn">Read More 💌</button>
+      <p class="hidden-letter">That kiss gave me butterflies I've never felt before, and a joy so deep it stayed with me long after our lips met.</p>
+    </div>
+
+    <div class="memory-card">
+      <img src="images/prom.jpeg" alt="Prom Night">
+      <p class="story">Prom night</p>
+      <button class="reveal-btn">Read More 💌</button>
+      <p class="hidden-letter">I felt so lucky to be there with you. You made that night magical.</p>
+    </div>
+
+    <div class="memory-card">
+      <img src="images/picnic.jpeg" alt="Picnic">
+      <p class="story">First Picnic together</p>
+      <button class="reveal-btn">Read More 💌</button>
+      <p class="hidden-letter">Sitting with you, just enjoying the day, makes even the simplest moments feel magical. I treasure every one of them.</p>
+    </div>
+
+    <!-- FINAL MEMORIES -->
+    <h2 class="final-title">A reminder why we need each other ❤️</h2>
+
+    <div class="memory-card final">
+      <img src="images/why we need eachother.jpeg" alt="Why We Need Each Other">
+      <p class="story">I know sometimes we fight because we don't understand each other...</p>
+    </div>
+
+    <div class="memory-card final">
+      <img src="images/why we need eachother (2).jpeg" alt="Why We Need Each Other 2">
+      <p class="story">But don't you ever think that I'll leave you.</p>
+    </div>
+
+    <div class="memory-card final">
+      <img src="images/folk.jpeg" alt="Folk">
+      <p class="story">You're the piece of me I didn't know was missing.</p>
+    </div>
+
+    <!-- SORRY LETTER -->
+    <div style="text-align:center; margin:20px;">
+      <button id="showSorryBtn" class="btn ripple">Read My Sorry Letter 💌</button>
+    </div>
+    <div class="memory-card" id="sorryLetter" style="display:none;">
+      <p class="story"><strong>❤️‍🩹</strong></p>
+      <p class="hidden-letter" style="display:block;">
+        I'm really sorry, bbcakes. I didn't think about how you'd feel earlier. I let my emotions take over, and I reacted without thinking. I know I shouldn't have let my frustration show, and I regret not communicating with you. I never meant to hurt you.
+
+        I was just caught off guard, and that's why I reacted that way. I thought maybe you didn't love me anymore and had just given up on me, but that was my mistake. I know I surprised you even though I knew you were tired, but even in my frustration, you were on my mind—wondering if you were okay, if you made it safely, and how your day went.
+
+        I love you so much. I may get frustrated sometimes, but my heart is always yours. Let's fix this together—I don't want a simple misunderstanding to make things worse between us. I know I'm not perfect, but I'll do everything—to rewrite our pain into joy, to make your heart safe in mine, because without you, my world has no meaning.
+      </p>
+    </div>
+
+    <!-- FUTURE RN -->
+    <div style="text-align:center; margin:20px;">
+      <button id="showFutureBtn" class="btn ripple">See Your Future RN Dream 💫</button>
+    </div>
+    <div class="memory-card future-rn" id="futureRN" style="display:none;">
+      <p class="story"><strong>My Future RN 🌟</strong></p>
+      <p class="hidden-letter" style="display:block;">
+        I'm so proud of you bbcakes, not just for what you do, but for who you are—kind, strong, and full of heart. Watching you chase your dreams and care for others reminds me how lucky I am to have you. Keep going, bbcakes—you're capable of more than you can ever imagine, and I'll always be here, believing in you and cheering you on, mylab.
+      </p>
+    </div>
+
+    <!-- SWEET DECISION BUTTONS -->
+    <div class="decision-box">
+      <button class="decide-btn ripple">I'll Always Be Here for You ❤️</button>
+      <button class="decide-btn ripple">You Are My Whole World 💞</button>
+      <button class="decide-btn ripple">Together Forever, No Matter What 🌸</button>
+    </div>
+
+    <!-- HIGHLIGHTED LINE -->
+    <h2 class="highlight-line">#parasapangarap5.0</h2>
+  </div>
+
+  <div style="text-align:center; margin:20px 0;">
+    <a href="index.html"><button class="btn back ripple">Back</button></a>
+  </div>
+
+  <audio id="bgMusic" src="music.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
